@@ -1,0 +1,226 @@
+@media (max-width: 768px)
+    .center
+        padding-left: calc(50% - 367px)
+        padding-right: calc(50% - 367px)
+
+    .header
+        max-height: 74px
+        &__right
+            display: none
+            &_mobile
+                display: flex
+                align-items: center
+        &__checkbox:checked ~ .mobile-menu
+            transform: scale(1)
+
+    .mobile-menu
+        transform: scale(0)
+        &__link-site
+            display: flex
+
+    .promo
+
+        &__info
+            margin-top: 0
+        &__content
+            display: flex
+            align-items: center
+            padding-left: 39px
+        &__title
+            font-size: 44px
+            line-height: 53px
+        &__heading
+            font-size: 24px
+            line-height: 29px
+
+    .sale
+        gap: 19px
+        padding-bottom: 109px
+        &__item
+            &_big
+                min-height: 116px
+    .products
+
+        &__text
+            padding-bottom: 74px
+        &__items
+            grid-template-columns: repeat(2, 1fr)
+            gap: 16px
+            padding-bottom: 32px
+    .button
+        padding-bottom: 65px
+    .footer
+        flex-direction: column
+        padding-top: 48px
+        padding-bottom: 64px
+        gap: 48px
+        &__item
+            padding-top: 0px
+            padding-bottom: 0px
+            width: 360px
+            align-self: center
+    .subscribe
+        flex-direction: column
+        align-items: center
+        gap: 48px
+        padding-bottom: 219px
+        &__item
+            padding-top: 54px
+        &__form
+            padding-top: 0px
+            padding-bottom: 0px
+            &__heading
+                line-height: 162%
+            &__subheading
+                padding-bottom: 27px
+    .pagination
+        padding-bottom: 64px
+    .product__page__info
+        margin-top: 623px
+        padding-left: 0
+        padding-right: 0
+    .product__page__text
+        padding-left: 106px
+        padding-right: 106px
+    .cart
+        padding-top: 59px
+        &__box
+            display: flex
+            flex-direction: column
+            gap: 104px
+        &__product__info
+            width: 472px
+        &__buttons
+            gap: 50px
+            justify-content: center
+        &__forms
+            display: flex
+            gap: 16px
+        &__button
+            margin-bottom: 0
+    .registration__box
+
+        gap: 22px
+    .registration__text
+        font-size: 16px
+        line-height: 19px
+
+@media (max-width: 767px)
+    .head
+        display: flex
+        flex-direction: column
+        gap: 32px
+        padding-top: 24px
+        padding-bottom: 46px
+        box-sizing: border-box
+    .center
+        padding-left: calc(50% - 172px)
+        padding-right: calc(50% - 172px)
+    .header
+        &__right
+            display: none
+            &_mobile
+                display: flex
+                align-items: center
+    .promo
+        height: 363px
+        align-items: center
+        justify-content: center
+        &__img
+            display: none
+        &__title
+            font-size: 38px
+            line-height: 46px
+        &__heading
+            font-size: 20px
+            line-height: 24px
+        &__content
+            padding-left: 0px
+    .sale
+        gap: 32px
+        grid-template-columns: repeat(1, 1fr)
+        padding-bottom: 64px
+        &__item_big
+            min-height: 111px
+    .big_img
+        height: 111px
+        object-fit: cover
+    .products
+        &__text
+            padding-bottom: 65px
+        &__items
+            grid-template-columns: repeat(1, 1fr)
+            padding-bottom: 41px
+    .button
+        padding-bottom: 96px
+    .footer
+        padding-bottom: 81px
+        gap: 46px
+        &__item
+            width: 300px
+    .subscribe
+        gap: 59px
+        padding-bottom: 109px
+        &__text
+            font-size: 18px
+            line-height: 22px
+        &__form__heading
+            line-height: 153.2%
+        &__form__subheading
+            padding-bottom: 22px
+    .socials
+        flex-direction: column-reverse
+        &__icons
+            padding: 43px 0 0 0
+            align-self: center
+    .social__text
+        padding: 40px 0 9px 0
+        align-self: center
+    .product__page__text
+        padding-left: 24px
+        padding-right: 24px
+    .product__page__summary
+        font-size: 10px
+        line-height: 12px
+    .big__hr
+        width: 174px
+    .cart
+        &__forms
+            gap: 48px
+            flex-direction: column
+            align-items: center
+        &__product__info
+            width: 214px
+            padding-left: 17px
+            padding-top: 13px
+            padding-right: 12px
+        &__product__img
+            width: 144px
+        &__product__info__heading
+            font-size: 16px
+            line-height: 19px
+        &__product__heading__box
+            padding-bottom: 25px
+        &__product__details
+            font-size: 14px
+            line-height: 17px
+            gap: 4px
+            margin-bottom: 38px
+        &__buttons
+            padding-top: 30px
+            gap: 9px
+        &__button__footer__link
+            font-size: 12px
+            line-height: 14px
+            padding: 8px 17px
+        &__box
+            gap: 56px
+
+    .close_img svg
+        width: 11px
+        height: 11px
+    .cart__reg__heading
+        padding-top: 26px
+    .registration__box
+        flex-direction: column
+        align-items: center
